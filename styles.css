@@ -453,6 +453,10 @@ top: 517px;
   line-height: 2;
   width: 50%;
 }
+#bot-para{
+  top: 2700px;
+    position: absolute;
+}
 .boot-cards{
   padding: 5px;
   text-align: center;

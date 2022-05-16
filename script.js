@@ -122,6 +122,8 @@ reload();
              // $(".box").css("border-bottom-right-radius", "100%");
              $(".button-side").click(function(){
                $(".box-inner").css("visibility", "hidden");
+               $(".button-side").css("visibility", "hidden")
+
                $(".box").animate({
                    width: '0px'
                },"fast");
@@ -160,6 +162,8 @@ $(".box2").mouseenter(function(){
   // $(".box").css("border-bottom-right-radius", "100%");
   $(".button-side2").click(function(){
     $(".box-inner2").css("visibility", "hidden");
+    $(".button-side2").css("visibility", "hidden")
+
     $(".box2").animate({
         width: '0px'
     },"fast");
@@ -201,6 +205,7 @@ $(".box3").mouseenter(function(){
   // $(".box").css("border-bottom-right-radius", "100%");
   $(".button-side3").click(function(){
     $(".box-inner3").css("visibility", "hidden");
+    $(".button-side3").css("visibility", "hidden")
     $(".box3").animate({
         width: '0px'
     },"fast");
@@ -246,6 +251,8 @@ $(".box4").mouseenter(function(){
   // $(".box").css("border-bottom-right-radius", "100%");
   $(".button-side4").click(function(){
     $(".box-inner4").css("visibility", "hidden");
+    $(".button-side4").css("visibility", "hidden")
+
     $(".box4").animate({
         width: '0px'
     },"fast");
